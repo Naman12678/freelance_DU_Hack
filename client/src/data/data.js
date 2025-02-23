@@ -357,15 +357,15 @@ export const businessData = [
 export const testimonyData = [
   {
     title: "Tim and Dan Joo, Co-Founder",
-    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what fiverr does."`,
+    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what freelanced does."`,
   },
   {
     title: "Tim and Dan Joo, Co-Founder",
-    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what fiverr does."`,
+    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what freelanced does."`,
   },
   {
     title: "Tim and Dan Joo, Co-Founder",
-    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what fiverr does."`,
+    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what freelanced does."`,
   },
 ];
 export const footerLinks = [
