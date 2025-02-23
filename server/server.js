@@ -28,7 +28,7 @@ const connectMongodb = async () => {
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://freelance-du-hack.vercel.app/"],
     credentials: true,
   })
 );
