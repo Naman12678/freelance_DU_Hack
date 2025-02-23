@@ -357,15 +357,15 @@ export const businessData = [
 export const testimonyData = [
   {
     title: "Tim and Dan Joo, Co-Founder",
-    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what Fiverr does."`,
+    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what fiverr does."`,
   },
   {
     title: "Tim and Dan Joo, Co-Founder",
-    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what Fiverr does."`,
+    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what fiverr does."`,
   },
   {
     title: "Tim and Dan Joo, Co-Founder",
-    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what Fiverr does."`,
+    details: `"When you want to create a business bigger than yourself, you need a lot of help. That's what fiverr does."`,
   },
 ];
 export const footerLinks = [
@@ -467,11 +467,11 @@ export const footerLinks = [
       },
       {
         to: "/",
-        text: "Selling on Fiverr",
+        text: "Selling on freelanced",
       },
       {
         to: "/",
-        text: "Buying on Fiverr",
+        text: "Buying on freelanced",
       },
     ],
   },
@@ -527,23 +527,23 @@ export const footerLinks = [
   },
   {
     id: "more",
-    title: "More From Fiverr",
+    title: "More From freelanced",
     links: [
       {
         to: "/",
-        text: "Fiverr Business",
+        text: "freelanced Business",
       },
       {
         to: "/",
-        text: "Fiverr Pro",
+        text: "freelanced Pro",
       },
       {
         to: "/",
-        text: "Fiverr Logo Maker",
+        text: "freelanced Logo Maker",
       },
       {
         to: "/",
-        text: "Fiverr Guides",
+        text: "freelanced Guides",
       },
       {
         to: "/",
@@ -551,7 +551,7 @@ export const footerLinks = [
       },
       {
         to: "/",
-        text: "Fiverr Select",
+        text: "freelanced Select",
       },
       {
         to: "/",
@@ -559,7 +559,7 @@ export const footerLinks = [
       },
       {
         to: "/",
-        text: "Fiverr Workspace",
+        text: "freelanced Workspace",
       },
       {
         to: "/",

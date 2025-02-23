@@ -11,6 +11,8 @@ import authRoute from "./routes/auth.route.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
+const PORT = process.env.PORT || 8000
+
 const app = express();
 dotenv.config();
 mongoose.set("strictQuery", true);
@@ -26,7 +28,7 @@ const connectMongodb = async () => {
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://fiverr-web.netlify.app"],
+    origin: ["http://localhost:5173"],
     credentials: true,
   })
 );
@@ -48,7 +50,7 @@ app.use((err, req, res, next) => {
   return res.status(errorStatus).send(errorMessage);
 });
 
-app.listen(8000, () => {
+app.listen(PORT, () => {
   connectMongodb();
-  console.log(`Server running on port http://localhost:${8000}`);
+  console.log(`Server running on port http://localhost:${PORT}`);
 });

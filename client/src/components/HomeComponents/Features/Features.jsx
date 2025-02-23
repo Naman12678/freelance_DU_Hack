@@ -85,7 +85,7 @@ const Features = () => {
                 >
                   <video
                     className="rounded-md h-full w-full"
-                    src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vmvv3czyk2ifedefkau7"
+                    src="https://freelanced-res.cloudinary.com/video/upload/t_freelanced_hd/vmvv3czyk2ifedefkau7"
                     controls
                   ></video>
                 </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { TfiWorld } from "react-icons/tfi";
-import { BsCurrencyDollar } from "react-icons/bs";
+import { BsCurrencyRupee } from "react-icons/bs";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import Login from "../../pages/login/Login";
 import useAuthStore from "../../stores";
@@ -105,13 +105,13 @@ const Navbar = () => {
               to="/"
               className="text-4xl select-none font-black tracking-tighter"
             >
-              <span>fiverr</span>
+              <span>freelanced</span>
               <span className="text-primary">.</span>
             </Link>
           </div>
           <nav className="flex items-center justify-end gap-7 font-medium text-base">
             <Link to="/" className="cursor-pointer hidden lg:flex">
-              Fiverr Business
+            freelanced Business
             </Link>
             <div className="cursor-pointer hidden lg:flex">Explore</div>
             <div className="items-center gap-2 cursor-pointer hidden lg:flex">
@@ -122,9 +122,9 @@ const Navbar = () => {
             </div>
             <span className="hidden lg:flex items-center gap-2 cursor-pointer">
               <span>
-                <BsCurrencyDollar />
+                <BsCurrencyRupee />
               </span>
-              USD
+              INR
             </span>
             {!authUser?.isSeller && (
               <p className="cursor-pointer hidden lg:flex">Become a Seller</p>
