@@ -6,7 +6,7 @@ const upload = async (file) => {
   data.append("upload_preset", "fiverr");
   try {
     const res = await axios.post(
-      "https://api.cloudinary.com/v1_1/dgu93pssw/image/upload",
+      `https://api.cloudinary.com/v1_1/${process.env.CLOUD_NAME}/image/upload`,
       data
     );
     const { url } = res.data;
